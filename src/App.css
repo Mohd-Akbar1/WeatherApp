@@ -1,0 +1,36 @@
+.Appcomponent{
+  width: 70vw;
+  height: 80vh;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  padding: 2px;
+  gap: 15px;
+  flex-wrap: wrap;
+ 
+}
+.currentInfo{
+flex: 1.5;
+/* border: 1px solid black; */
+border-radius: 4px;
+
+}
+.FullDetail{
+flex: 2;
+/* border: 1px solid black; */
+border-radius: 4px;
+min-width: 400px;
+
+}
+
+@media (min-width: 600px) and (max-width: 884px) {
+  .Appcomponent {
+    display: flex;
+   
+   
+  }
+  .FullDetail{
+    width: 80%;
+
+  }
+}

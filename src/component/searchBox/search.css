@@ -1,0 +1,105 @@
+.SearchContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+    
+}
+
+.usersearchInput{
+/* border: 1px solid black; */
+width: 100%;
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(0, 0, 0, 0.312);
+backdrop-filter: blur(2px);
+gap: 5px;
+border-radius: 4px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.icon{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.419);
+}
+.displayBox{
+    /* border: 1px solid black; */
+    flex: 11;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: rgba(0, 0, 0, 0.312);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+input{
+    width: 80%;
+    padding: 10px 5px;
+    background-color: rgba(0, 0, 0, 0.312);
+backdrop-filter: blur(4px);
+border-radius: 8px;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding-left: 10px;
+}
+.Todaydata{
+    width: 100%;
+    /* border: 1px solid black; */
+    flex: 1;
+    line-height: 5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.812);
+}
+.weatherdetails{
+    flex: 1;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    color: white;
+}
+.Todaydata .temp{
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 10px;
+    justify-content: center;
+}
+.Todaydata .status,.descp{
+    font-size: 14px;
+}
+.info{
+    border-radius: 6px;
+    width: 40%;
+    height: 40%;
+    /* border: 1px solid black; */
+    background-color: rgba(0, 0, 0, 0.203);
+    backdrop-filter: blur(4px);
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.btn{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    height: 90%;
+width: 8%;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.203);
+backdrop-filter: blur(4px);
+border-radius: 10px;
+
+}

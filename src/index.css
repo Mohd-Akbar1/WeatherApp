@@ -1,0 +1,16 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: content-box;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  background: url('../src/assets/dark.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: #2C285A;
+}
