@@ -30,3 +30,13 @@ This project is a weather application built with React and Vite. The app fetches
 - Enter Location: Input a city name or location in the search bar.
 - View Weather: The app will display current weather data for the entered location.
 - Convert Units: Use the provided options to convert between Celsius and Fahrenheit.
+
+ 
+
+  
+
+![Weather App Screenshot](https://github.com/Mohd-Akbar1/WeatherApp/blob/main/weather.png)
+
+
+
+
