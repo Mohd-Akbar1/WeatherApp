@@ -3,7 +3,7 @@
 
 # Weather Project
 ## Project Overview
-This project is a weather application built with React and Vite. The app fetches and displays weather data based on user input and allows users to convert units of measurement.
+This project is a weather application built with React and Vite. The app fetches and displays weather data based on user input and allows users to convert units of measurement.Forecasting of weather will be available for 5 days and 3 hours of today for different times
 ## Features
 - Fetch Weather Data: Retrieve and display weather information based on user input.
 - Unit Conversion: Convert temperature units between Celsius and Fahrenheit.
